@@ -24,7 +24,15 @@ public class basicalculator {
 	void square(int a) {
 		System.out.printf("%d", a * a).println();
 	}
+    void factorial(int a) {
+    	int f=1;
+        for(int i=1;i<=a;i++) {
+        	f=f*i;
+        }
+        System.out.println(f);
+    		
+    	}
+    }
 
 
-}
 

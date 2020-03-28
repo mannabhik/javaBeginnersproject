@@ -8,7 +8,7 @@ public class basicalculatorunner {
 		basicalculator three = new basicalculator();
 		basicalculator four = new basicalculator();
 
-		one.multi(5,8);
+		one.factorial(7);
 
 	}
 
